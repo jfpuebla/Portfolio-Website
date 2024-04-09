@@ -23,13 +23,17 @@ function Hero(){
         <div className="hero-container">
             <div className='hero-sub-container'>
                 <div className='hero-wrapper'>
-                    <h1 className='montserrat-700' id='name-intro'>HI I'M  
-                    <span className='orange-text'>JOHN FRANCIS PUEBLA</span> </h1>
+                    <h1 className='montserrat-700' id='name-intro'>HI I'M JOHN FRANCIS PUEBLA
+                        {/* <span className='orange-text'>JOHN FRANCIS PUEBLA</span>  */}
+                    </h1>
                     <h1 className='montserrat-400'>Welcome to my Portfolio</h1>
                     <h1 className='montserrat-400'> An Aspiring Developer with</h1>
                     <h1 className='montserrat-700 orange-text'>SEO Experience</h1>
                     <button className='montserrat-900' id='resume-btn'>DOWNLOAD MY RESUME</button>
-
+                </div>
+                {/* NOTE: Add Icon Here for empty space */}
+                <div className='hero-icon montserrat-400'>
+                    Icon Here sammple
                 </div>
             </div>
             {/* <h1>I am A HERO</h1>
