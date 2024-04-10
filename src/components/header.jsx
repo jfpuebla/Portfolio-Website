@@ -43,7 +43,7 @@ function Header (){
                 <div className="navbar-wrapper">
                     {/* NOTE: should be with https not www only */}
                     <div className="navbar-logo">
-                        <a href="https://www.tutorialspoint.com" >
+                        <a href="" >
                             <img src={Logo} alt="Logo Image" id = 'logo'></img>
                         </a>
                     </div>

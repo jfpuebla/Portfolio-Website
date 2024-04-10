@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './hero.css';
+import hero from '../assets/hero.gif';
 function Hero(){
     // const [num, setNum] = useState(0);
     // function bringSomething(){
@@ -33,7 +34,7 @@ function Hero(){
                 </div>
                 {/* NOTE: Add Icon Here for empty space */}
                 <div className='hero-icon montserrat-400'>
-                    Icon Here sammple
+                    <img src={hero} alt='Hero Logo' id='hero-logo'></img>
                 </div>
             </div>
             {/* <h1>I am A HERO</h1>
